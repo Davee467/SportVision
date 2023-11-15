@@ -1,0 +1,151 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    font-weight: 600;
+    font-size: medium;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.nav:hover{
+    border-bottom: 3px solid rgb(173, 0, 0);
+}
+#navbar{
+    position: relative;
+    left:100px;
+    display: flex;
+    min-height:5vh;
+    min-width:100vw;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    overflow: hidden;
+}
+#dir{
+    color: rgb(163, 163, 163);
+    font-size: medium;
+    position: relative;
+    left:100px;
+}
+#main{
+    position:relative;
+    left:100px;
+    width:100%;
+    height: 100% ;
+    padding-top: 30px;
+}
+#top{
+    display:flex;
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
+h1{
+    font-weight: 500;
+}
+#list{
+    list-style-type: none;
+    position: relative;
+    right:40px;
+    width:400px;       
+}
+#first{
+    width:20vw;
+    font-size: larger;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+}
+#first:hover{
+    background-color: rgb(150, 150, 150);
+}
+.lis:hover{
+    background-color: rgb(150, 150, 150);
+}
+.lis{
+    width:20vw;
+    font-size: larger;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+}
+#mid{
+    height: 100%;
+    width:100vw;
+    display: flex;  
+}
+#lista{
+    width:20vw;
+    height:100vh;
+}
+.slike{
+    height:350px;
+}
+#artikli{
+    width:60vw;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;  
+}
+.category{
+    color: rgb(150, 150, 150);
+    font-weight: 300;
+    font-size:medium;
+}
+.name{
+    font-size: larger;
+    font-weight: 500;
+}
+.price{
+    font-size: medium;
+    font-weight: 700;
+    padding-top: 60px;
+}
+.artikal{
+    margin:5px;
+}
+p{
+    font-size: large;
+}
+#bottom{
+    height:20vh;
+    position:relative;
+    top:1200px;
+}
+.bottomliste{
+    list-style-type: none;
+    width:100cw;
+    font-size: medium;
+    padding-right: 150px;
+}
+.prvi{
+    margin:10px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+.ostali{
+    margin:10px;
+}
+.ostali:hover{
+    border-bottom: 2px solid rgb(167, 0, 0); 
+}
+#liste{
+    position: relative;
+    display:flex;
+    width:100vw;
+    overflow:hidden;
+}
+#end{
+    font-size: small;
+    font-weight: 100;
+    color: rgb(175, 175, 175);
+}
+#copy{
+    font-weight: 500;
+    font-size: small;
+}
+#all{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+}
